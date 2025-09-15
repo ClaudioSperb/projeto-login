@@ -18,7 +18,11 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+        margin-top: 50px;
     }
+
+    
+
 }
 /* PC - Desktop */
 @media screen and (min-width: 992px) {
@@ -35,6 +39,7 @@
     section#login > div#formulario{
         float: left;
         width: 50%;
+        margin-top: 50px;
         
     }  
     /* Aqui colocamos o float para posicionar a imagem na posição desejada.
@@ -46,6 +51,7 @@
     }
 
     div#formulario > p{
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin: 20px 0px;
     }
 }
