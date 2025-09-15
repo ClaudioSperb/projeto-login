@@ -21,8 +21,7 @@
 }
 
 *{
- font-family: var(--font-padrão);
-
+    font-family: var(--font-padrão);
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -40,10 +39,6 @@ main{
     width: 100vw;
 }
 
-section{
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.445);
-}
-
 section#login{
     position: absolute;
     top: 50%;
@@ -55,6 +50,10 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.445);
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 
 }
 
@@ -68,8 +67,7 @@ section#login > div#imagem{
 
 }
 
-section#login > div#formulario
-{
+section#login > div#formulario{
     padding: 10px;
     display: block;
 }
