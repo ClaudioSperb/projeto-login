@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
         width: 80vw;
@@ -20,21 +20,32 @@
         width: 70%;
     }
 }
-
+/* PC - Desktop */
 @media screen and (min-width: 992px) {
     section#login{
         width: 950px;
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
         
+    }  
+    /* Aqui colocamos o float para posicionar a imagem na posição desejada.
+    Tambem colocamos um width de 50% para que a imagem apareceça nessa porcentagem e 50% do formulario.
+    */
+
+    div#formulario > h1{
+    font-size: 2.1em;
+    }
+
+    div#formulario > p{
+    font-size: 1.2em;
     }
 }

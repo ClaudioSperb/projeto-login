@@ -54,6 +54,7 @@ section#login{
 
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
+    /* Aqui utilizamos essas configuarações de transition para deixar mais animado a transição de uma tela para outra */
 
 }
 
@@ -70,5 +71,14 @@ section#login > div#imagem{
 section#login > div#formulario{
     padding: 10px;
     display: block;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
 
